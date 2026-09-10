@@ -1208,3 +1208,17 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.09.10-17.01.41:808][398]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 314.139404
 [2026.09.10-17.01.42:808][401]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.09.10-17.01.42:808][401]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 314.806305, Update Interval: 351.347992
+[2026.09.10-17.07.37:560][465]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 669.896790
+[2026.09.10-17.07.38:559][468]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.10-17.07.38:561][468]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 670.563232, Update Interval: 313.092438
+[2026.09.10-17.12.57:943][426]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 990.297180
+[2026.09.10-17.12.58:943][429]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.10-17.12.58:943][429]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 990.964355, Update Interval: 310.043640
+[2026.09.10-17.18.24:345][405]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1316.707886
+[2026.09.10-17.18.25:346][408]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.10-17.18.25:346][408]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1317.374634, Update Interval: 357.734924
+[2026.09.10-17.24.47:757][555]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1700.121704
+[2026.09.10-17.24.48:756][558]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.10-17.24.48:756][558]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1700.787476, Update Interval: 358.906830
+[2026.09.10-17.27.59:983][ 51]LogSlate: Window 'Editor Preferences' being destroyed
+[2026.09.10-17.27.59:987][ 51]LogSlate: Window 'Editor Preferences' being destroyed
