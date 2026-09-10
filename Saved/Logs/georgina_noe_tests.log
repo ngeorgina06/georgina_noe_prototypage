@@ -1236,3 +1236,173 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.09.10-18.34.28:045][470]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1317.259644
 [2026.09.10-18.34.29:045][473]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.09.10-18.34.29:045][473]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1317.927124, Update Interval: 336.928009
+[2026.09.10-18.38.34:839][251]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Project/VFX/Niagara/NS_neige.NS_neige
+[2026.09.10-18.38.35:008][251]LogStreaming: Display: FlushAsyncLoading(331): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.10-18.38.35:085][251]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.09.10-18.38.35:303][251]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.09.10-18.38.35:585][251]LogSlate: Took 0.006140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.09.10-18.38.35:592][251]LogSlate: Took 0.005565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.09.10-18.38.36:294][285]LogNiagara: Compiling System NiagaraSystem /Game/Project/VFX/Niagara/NS_neige.NS_neige took 1.372088 sec (time since issued).
+[2026.09.10-18.38.36:435][292]55363_NS_neige_MessageLog: System successfully compiled.
+[2026.09.10-18.39.29:463][382]LogSlate: Window 'NS_neige' being destroyed
+[2026.09.10-18.39.29:481][382]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.09.10-18.39.29:481][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.10-18.39.29:493][382]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.09.10-18.39.29:493][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.10-18.39.29:545][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2026.09.10-18.39.29:571][383]LogNiagara: Compiling System NiagaraSystem /Game/Project/VFX/Niagara/NS_neige.NS_neige took 0.100187 sec (time since issued).
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: ================================================
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Total job queries 487, among them cache hits 62 (12.73%), DDC hits 360 (73.92%), Duplicates 64 (13.14%)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Tracking 361 distinct input hashes that result in 266 distinct outputs (73.68%)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: RAM used: 3,51 MiB of 1,60 GiB budget. Usage: 0.21%
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Shaders Compiled: 1
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Job execution time: average 0.61 s, max 0.61 s
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Job life time (pending + execution): average 0.66 s, max 0.66
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Shader code size: total 43,999 KiB, numShaders 1, average 43,999 KiB, min 43,999 KiB, max 43,999 KiB
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.66 s
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.06%
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Average processing rate: 1.53 jobs/sec
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Total thread time: 0,174 s
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Total thread preprocess time: 4,712 s
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Percentage time preprocessing: 2701.87%
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Effective parallelization: 0.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.026608
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                               FNiagaraShader (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display:                        FRayTracingDynamicGeometryConverterCS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: === Material stats ===
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Materials Translated:    144
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Material Translation Only: 0.03 s (33%)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: Material Cache Hits: 12 (8%)
+[2026.09.10-18.39.38:585][924]LogShaderCompilers: Display: ================================================
+[2026.09.10-18.40.31:300][970]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1680.523315
+[2026.09.10-18.40.32:303][973]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.10-18.40.32:303][973]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1681.190552, Update Interval: 307.578979
+[2026.09.10-18.46.01:406][544]LogEOSSDK: Warning: LogHttp: 0000015849B64200: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B0753269C-4BF8-D6AE-64BF-DBAF00D89E3F%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.09.10-18.46.01:406][544]LogEOSSDK: Warning: LogHttp: 0000015849B64200: request failed, libcurl error: 0 (No error)
+[2026.09.10-18.46.01:406][544]LogEOSSDK: Warning: LogHttp: 0000015849B64200: libcurl info message cache 0 (Found bundle for host: 0x15883880090 [serially])
+[2026.09.10-18.46.01:406][544]LogEOSSDK: Warning: LogHttp: 0000015849B64200: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2026.09.10-18.46.01:406][544]LogEOSSDK: Warning: LogHttp: 0000015849B64200: libcurl info message cache 2 (We are completely uploaded and fine)
+[2026.09.10-18.46.01:406][544]LogEOSSDK: Warning: LogHttp: 0000015849B64200: libcurl info message cache 3 (Closing connection)
+[2026.09.10-18.46.01:406][545]LogEOSSDK: Warning: LogHttp: 0000015849B64200: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2026.09.10-18.46.01:406][545]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B0753269C-4BF8-D6AE-64BF-DBAF00D89E3F%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.09.10-18.46.33:769][641]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2042.996826
+[2026.09.10-18.46.35:103][645]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.10-18.46.35:103][645]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2043.996704, Update Interval: 313.954895
+[2026.09.10-18.50.43:646][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.10-18.50.43:744][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.09.10-18.50.43:763][341]LogSavePackage: Moving output files for package: /Game/Project/Maps/Main/LVL_prototypage
+[2026.09.10-18.50.43:763][341]LogSavePackage: Moving '../../../../../../Users/6291467/Documents/GitHub/georgina_noe_prototypage/Saved/LVL_prototypage54083C3440906237437C9D83E71AD256.tmp' to '../../../../../../Users/6291467/Documents/GitHub/georgina_noe_prototypage/Content/Project/Maps/Main/LVL_prototypage.umap'
+[2026.09.10-18.50.43:770][341]LogFileHelpers: Saving map 'LVL_prototypage' took 0.067
+[2026.09.10-18.50.43:778][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.423 ms
+[2026.09.10-18.50.43:837][341]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.10-18.50.43:837][341]LogContentValidation: Enabled validators:
+[2026.09.10-18.50.43:837][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.10-18.50.43:837][341]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.10-18.50.43:837][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.10-18.50.43:837][341]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.10-18.50.43:837][341]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.10-18.50.43:837][341]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.10-18.50.43:838][341]AssetCheck: /Game/Project/Maps/Main/LVL_prototypage Validating asset
+[2026.09.10-18.52.46:521][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2415.747314
+[2026.09.10-18.52.47:521][883]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.10-18.52.47:521][884]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2416.414551, Update Interval: 306.718353
+[2026.09.10-18.58.41:519][411]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2770.750244
+[2026.09.10-18.58.42:521][414]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.10-18.58.42:521][414]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2771.417725, Update Interval: 311.887573
+[2026.09.10-19.00.20:319][718]Cmd: TRANSACTION UNDO
+[2026.09.10-19.00.20:324][718]LogEditorTransaction: Undo Edit Mie Absorption Scale
+[2026.09.10-19.00.31:675][205]Cmd: TRANSACTION UNDO
+[2026.09.10-19.00.31:675][205]LogEditorTransaction: Undo Edit Mie Absorption Scale
+[2026.09.10-19.00.33:472][291]Cmd: TRANSACTION UNDO
+[2026.09.10-19.00.33:472][291]LogEditorTransaction: Undo Edit Mie Absorption Scale
+[2026.09.10-19.00.34:422][348]Cmd: TRANSACTION UNDO
+[2026.09.10-19.00.34:422][348]LogEditorTransaction: Undo Edit Mie Absorption Scale
+[2026.09.10-19.01.39:705][608]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.10-19.01.45:258][930]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.10-19.01.56:469][409]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.10-19.01.56:559][409]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.09.10-19.01.56:575][409]LogSavePackage: Moving output files for package: /Game/Project/Maps/Main/LVL_prototypage
+[2026.09.10-19.01.56:575][409]LogSavePackage: Moving '../../../../../../Users/6291467/Documents/GitHub/georgina_noe_prototypage/Saved/LVL_prototypage3A721AF247975701BC7C829964E0F00B.tmp' to '../../../../../../Users/6291467/Documents/GitHub/georgina_noe_prototypage/Content/Project/Maps/Main/LVL_prototypage.umap'
+[2026.09.10-19.01.56:581][409]LogFileHelpers: Saving map 'LVL_prototypage' took 0.053
+[2026.09.10-19.01.56:587][409]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.775 ms (total: 250.199 ms)
+[2026.09.10-19.01.56:628][409]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.10-19.01.56:628][409]LogContentValidation: Enabled validators:
+[2026.09.10-19.01.56:628][409]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.10-19.01.56:628][409]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.10-19.01.56:628][409]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.10-19.01.56:628][409]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.10-19.01.56:628][409]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.10-19.01.56:628][409]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.10-19.01.56:628][409]AssetCheck: /Game/Project/Maps/Main/LVL_prototypage Validating asset
+[2026.09.10-19.01.57:619][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2026.09.10-19.01.57:641][467]LogStall: Shutdown...
+[2026.09.10-19.01.57:641][467]LogStall: Shutdown complete.
+[2026.09.10-19.01.57:667][467]LogSlate: Window 'georgina_noe_tests - Unreal Editor' being destroyed
+[2026.09.10-19.01.57:732][467]Cmd: QUIT_EDITOR
+[2026.09.10-19.01.57:732][468]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.09.10-19.01.57:735][468]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.09.10-19.01.57:735][468]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.09.10-19.01.57:735][468]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.09.10-19.01.57:737][468]LogWorld: UWorld::CleanupWorld for LVL_prototypage, bSessionEnded=true, bCleanupResources=true
+[2026.09.10-19.01.57:737][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.10-19.01.57:741][468]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.09.10-19.01.57:741][468]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.09.10-19.01.57:743][468]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.09.10-19.01.57:747][468]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.09.10-19.01.57:747][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.10-19.01.57:747][468]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.09.10-19.01.57:747][468]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.09.10-19.01.57:753][468]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.09.10-19.01.58:310][468]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.09.10-19.01.58:310][468]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.09.10-19.01.58:310][468]LogAudio: Display: Audio Device unregistered from world 'LVL_prototypage'.
+[2026.09.10-19.01.58:310][468]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.09.10-19.01.58:310][468]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.09.10-19.01.58:311][468]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.09.10-19.01.58:317][468]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.09.10-19.01.58:317][468]LogAudio: Display: Audio Device Manager Shutdown
+[2026.09.10-19.01.58:321][468]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.09.10-19.01.58:322][468]LogExit: Preparing to exit.
+[2026.09.10-19.01.58:350][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.09.10-19.01.59:518][468]LogEditorDataStorage: Deinitializing
+[2026.09.10-19.01.59:639][468]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.09.10-19.01.59:660][468]LogExit: Editor shut down
+[2026.09.10-19.01.59:665][468]LogExit: Transaction tracking system shut down
+[2026.09.10-19.01.59:810][468]LogExit: Object subsystem successfully closed.
+[2026.09.10-19.01.59:879][468]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.09.10-19.02.00:018][468]LogMemoryProfiler: Shutdown
+[2026.09.10-19.02.00:018][468]LogNetworkingProfiler: Shutdown
+[2026.09.10-19.02.00:018][468]LoadingProfiler: Shutdown
+[2026.09.10-19.02.00:018][468]LogTimingProfiler: Shutdown
+[2026.09.10-19.02.00:019][468]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.09.10-19.02.00:019][468]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.09.10-19.02.00:380][468]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.09.10-19.02.00:387][468]LogNFORDenoise: NFORDenoise function shutting down
+[2026.09.10-19.02.00:403][468]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.09.10-19.02.00:403][468]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE50BFAF6-4353-EBE3-58AD-CC9CCB7015EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=613899e4075f413da3d689ddb2d441f2%7C026771be6ece4cdabb82c751d60dde47%7Cf709f55f-94e6-442c-bc92-f900bbb16d52&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.09.10-19.02.00:955][468]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.09.10-19.02.00:955][468]RenderDocPlugin: plugin has been unloaded.
+[2026.09.10-19.02.00:956][468]LogXGEController: Cleaning working directory: C:/Users/6291467/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2026.09.10-19.02.00:959][468]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.09.10-19.02.00:959][468]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.09.10-19.02.00:959][468]LogPakFile: Destroying PakPlatformFile
+[2026.09.10-19.02.01:233][468]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.09.10-19.02.01:282][468]LogExit: Exiting.
+[2026.09.10-19.02.01:304][468]Log file closed, 09/10/26 15:02:01
